@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMAX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="flex-container">
+            <div id="logo">
+                <img
+                src="http://i1.faceprep.in/prograd-junior/animax-logo.png" 
+                alt="logo-image">
+            </div>
+            <div class="button">
+                <a href="https://codepen.io/swathigirish" "target="blank">
+                    <p><b>Who Built This?</b></p></a> 
+            </div>
+        </nav>
+        <div class="flex-column"  id="header-text">
+            <h1>My all time Favourite Animated Movies</h1>
+            <p>Scroll Down and Click to watch My Fav Anime Movies</p> 
+            <img id="scroll" 
+            src="http://i1.faceprep.in/prograd-junior/scroll-down-icon.png" 
+            alt="scroll-image">
+        </div>
+    </header>
+
+     <div class="container">
+        <div class="flex-container movies wrap-reverse">
+            <div class="movie-text flex-column">
+                <h1>Frozen II</h1>
+                <p>
+                    Why was Elsa born with magical powers? The answers is calling and 
+                   threating her kingdom.Watch it out.
+                </p>
+                   <div class="movie-image flex-column">
+                       <a href="https://youtu.be/Zi4LMpSDccc" target="blank">
+                       <p id="play" class="button">Play</p></a>
+                   </div>
+            </div>
+            <div class="movie-image flex-column">
+                <img src="http://i1.faceprep.in/prograd-junior/frozen-movie.png" alt="frozen-image">
+            </div>
+        </div>
+        <hr>
+
+        
+        
+        <div class="flex-container movies">
+            <div class="movie-image flex-column">
+                <img src="http://i1.faceprep.in/prograd-junior/avengers-assemble.png" 
+                alt="avengers-image">
+            </div>
+            <div class="movie-text flex-column">
+                <h1>Avengers Assemble</h1>
+                <p>
+                 When Captain America is apparently destroyed by Red Skull, 
+                 Iron Man re-unites the team.
+                </p>
+                   <div class="movie-image flex-column">
+                       <a href="https://youtu.be/aEnhSjwvOoY" target="blank">
+                       <p id="play" class="button">Play</p></a>
+          </div>
+         </div>
+        </div>
+        <hr>
+
+
+        <div class="flex-container movies wrap-reverse">
+            <div class="movie-text flex-column">
+                <h1>Onward</h1>
+                <p>
+                    Onward is all about two teenage elf brothers
+                     who go on a quest to discover little magic left out there
+               </p>
+                   <div class="movie-image flex-column">
+                       <a href="https://youtu.be/gn5QmllRCn4" target="blank">
+                       <p id="play" class="button">Play</p></a>
+                   </div>
+            </div>
+            <div class="movie-image flex-column">
+                <img src=" http://i1.faceprep.in/prograd-junior/onward.png" alt="onward-image">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer class="flex-column">
+        <p>Built by ProGradJunior, Eshwar</p>
+    </footer>
+</body>
+</html>
+
+
+html
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&family=Work+Sans&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    background-image: url("http://i1.faceprep.in/prograd-junior/animax-bg.png");
+    background-size: 100% 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border: 8px solid #1b1717;
+}
+
+#logo img{
+    width: 200px;
+} 
+
+#scroll{
+    width: 80px;
+}
+
+#header-text{
+    max-width: 500px;
+    min-height: 300px;
+    padding: 10% 0%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+h1{
+    font-family: "Passion One", cursive;
+    font-size: 55px;
+    font-weight: lighter;
+}
+
+p{
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+}
+
+nav{
+    margin: 2% 7%;
+}
+
+#header-text > p{
+    width: 300px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movies{
+    flex-wrap: wrap;
+    min-height: 300px;
+    margin: 3% 14%;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.movie-image{
+    width: 400px;
+    height: 240px;
+}
+
+.movie-image > img{
+    width: 100%;
+}
+
+.movie-text > p{
+    margin: 22px 0px;
+}
+
+.movie-text{
+    width: 400px;
+}
+
+footer{
+    height: 90px;
+    text-align: center;
+}
+
+.button{
+   background-color: #F50A5F;
+   padding: 7px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#play{
+    display: inline;
+}
+
+#scroll{
+    position: relative;
+    animation: mymove 3s infinite;
+    animation-play-state: running;
+}
+
+@keyframes mymove{
+    from{
+        top: 15px;
+    }
+    to{
+        top: 100px;
+    }
+}
+
+hr{
+    color: #1b1717;
+    border: 4px solid #1b1717;
+}
+
+@media only screen and(max-width:600px){
+    .wrap-reverse {
+    flex-wrap: wrap-reverse;
+    
+}
+.container{
+    text-align: center;
+}
+.button{
+    margin: 0% 2%;
+}
+}
+
+
+
+
+css
