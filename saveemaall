@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Wildlife</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="bar">
+        <ul id="container">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#why">WHY</a></li>
+            <li><a href="#how">HOW</a></li>
+            <li id="button"><a href="https://support.wwf.org.uk/donate-to-wwf?_ga=2.13407091.535776232.1599127507-982099438.1599127507"> <b>DONATE</b></a></li>
+        </ul>
+    </nav>
+
+    <header id="home"><img src=" http://i1.faceprep.in/prograd-junior/save-wl-bg.png" alt="home-bg"></header>
+
+    <div id="why">
+        <img src=" http://i1.faceprep.in/prograd-junior/endangered-species-count.png" alt="why-image"> <br><br><br>
+        <p>That is 27% of all species. Moreover, the world’s wildlife is being lost up to 10,000 times faster than the natural extinction rate.
+        </p>
+    </div>
+
+    <footer id="how">
+        <h1><b> Act Now!</b></h1> <br><br>
+        <p> Animals and plants aren’t just valuable for their own sake
+         – they’re also part of a wider natural environment that may provide food, shelter, water, and other functions, for other wildlife and people. <br><br> You need to educate your family about
+          endangered species in your area, recycle and buy sustainable products and often volunteer to help save wildlife or create awareness.</p>
+    </footer>
+    <hr>  
+    <div class="bar">
+        <p>Eshwar 😎</p>
+    </div>
+    
+</body>
+
+</html>
+
+
+
+html
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Asap', sans-serif;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#button{
+    background-color: #ffcc00;
+    padding: 8px;
+}
+
+header img{
+    max-width: 100%;
+}
+
+div>img{
+    width: 25%;
+}
+
+#why{
+    min-height: 500px;
+    text-align: center;
+}
+
+#why p{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+p{
+    font-size: 25px;
+}
+
+footer{
+    background-image: url( http://i1.faceprep.in/prograd-junior/black-background.png);
+    background-size: 100% 100%;
+    padding: 10% 0%;
+    color: white;
+}
+
+h1{
+    font-size: 70px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer p{
+    padding: 0% 20%;
+}
+
+.bar p{
+   color: white;
+}
+
+
+css
