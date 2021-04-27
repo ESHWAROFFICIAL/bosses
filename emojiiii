@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Favourite Emoji's</title>
+</head>
+<body>
+    <h1 id="heading">My Favourite Emoji's</h1> 
+    <div class="wrapper">
+        <!--Emoji1-->
+        <div class="emoji-face">
+            <div class="eye1"></div>
+            <div class="eye2"></div>
+            <div class="mouth">
+            <div class="tongue"></div>
+            </div>
+        </div>
+        <!--Emoji2-->
+        <div class="emoji-face">
+            <div class="eye1"></div>
+            <div class="eye2"></div>
+            <div class="mouth-shock"></div>
+        </div>
+        <!--Emoji3-->
+        <div class="emoji-face">
+            <div class="eye1"></div>
+            <div class="eye2"></div>
+            <div class="mouth-speechless"></div>
+        </div>
+    </div>
+    
+    <div class="write-up">
+        <div>
+        <h1>😎 Smiling Face with Sunglasses</h1>
+        <p>A yellow face with a broad, closed smile wearing black sunglasses, as if a pair of classic Wayfarers. Often used to convey the slang sense of cool. May also express a confident, carefree attitude or that something is excellent.</p>
+        </div>
+        <div>
+        <h1>😀 Grinning Face</h1>
+        <p> yellow face with simple, open eyes and a broad, open smile, showing upper teeth and tongue on some platforms. Often conveys general pleasure and good cheer or humor.</p>
+        </div>
+        <div>
+        <h1>😑 Expressionless Face</h1>
+        <p>A yellow face with flat, closed eyes and mouth. May convey a sense of frustration or annoyance more intense than suggested by 😐 Neutral Face, as if taking a moment to collect itself.</p>
+        </div>
+        <div>
+        <h1>🤣 Rolling on the Floor Laughing</h1>
+        <p>A yellow face with a big grin and scrunched, X-shaped eyes, tilted on its side as if rolling on the floor laughing (the internet acronym ROFL). Sheds two tears and tilts right on most platforms. Often conveys hysterical laughter more intense than 😂 Face With Tears of Joy.</p>
+        </div>
+        <div>
+        <h1>😈 Smiling Face with Horns</h1>
+        <p>A face, usually purple, with devil horns, a wide grin, and eyes and eyebrows scrunched downward in the same manner as 😠 Angry Face on most platforms. Google’s design is red and Facebook’s has black horns and green eyes.</p>
+        </div>
+        <br />
+        <br />
+        <p><b>~ By ProGrad Junior, Eshwar 😎</b></p>
+    </div>
+</body>
+</html>
+
+
+
+html
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body{
+      background-color: lightyellow;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 5em;
+    text-align: center;
+}
+
+.emoji-face{
+    background-color: #F2DD68;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 2px 0px 2px 2px rgb(0,0,0,0.07);
+}
+
+.eye1{
+    background: #995710;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.eye2{
+    background: #995710;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.mouth{
+    background: #995710;
+    height: 34px;
+    width: 70px;
+    border-radius: 0 0 90px 90px;
+    position: absolute;
+    top: 52px;
+    left: 16px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.mouth-shock{
+    background: #995710;
+    height: 25px;
+    width: 23px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.mouth-speechless{
+    background: #995710;
+    height: 5px;
+    width: 70px;
+    position: absolute;
+    top: 60px;
+    left: 16px;
+}
+
+.tongue{
+    background: #e25d5d;
+    height: 38px;
+    width: 38px;
+    border-radius: 40%;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.emoji-face{
+    float: left;
+    margin: 0px 20px 0px 0px;
+ }
+
+.write-up{
+    background-color: #d8aa2b;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10% 20%;
+    padding: 5% 10%;
+}
+
+.wrapper{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+
+#heading{
+    font-size: 4em;
+}
+
+h1{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+.emoji-face:hover{
+    transform: scale(1.25);
+}
+
+
+css
