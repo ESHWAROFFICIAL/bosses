@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="form">
+    <div>
+        <h1>COVID-19 Registraion Form</h1>
+        <br>
+        <br>
+        <img src="./image/ey-webcast-stay-operational-resilient-during-covid-19.jpg" width="400px" height="400px" alt="No Image Found">
+        <br>
+        <br>
+        <br>
+        <h3>Wanna be a Covid-19 patient?</h3>
+        <br>
+        <br>
+    </div>
+        <form action="">
+         <label for="name">What is your name?</label><input type="text" name="name" id="name">
+         <br>
+         <br>
+         <label for="age">What is your age?</label><input type="number" name="age" id="age" min="1" max="100">
+         <br>
+         <br>
+         <label for="number">What is your phone number?</label><input type="number" name="number" id="number">
+         <br>
+         <br>
+         <label for="email id">What is your email-id?</label><input type="text" name="email id" id="email id">
+         <br>
+         <br>
+         <label for="address">What is your address?</label><input type="text" name="address" id="address">
+         <br>
+         <br>
+         <label for="blood">What is your blood group?</label><input type="text" name="blood" id="blood" min="1" max="10">
+         <br>
+         <br>
+         <label for="positive">Positive Patient</label><input type="checkbox" name="positive" id="positive">
+         <br>
+         <br>
+         <label for="negitive">Negitive Patient</label><input type="checkbox" name="negitive" id="negitive">
+         <br>
+         <br>
+         <input type="submit" value="SUBMIT">
+        </form>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <p>Developed by ProGrad Junior, Eshwar:</p>
+        </section>
+</body>
+</html>
+
+
+html
+
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image: url('https://i1.faceprep.in/ProGrad/iron-man-bg.png');
+   background-size: 140% 140%;
+   font-family: 'Concert One', cursive;
+}
+label,input{
+    font-size: 150%;
+}
+.form{
+    background: black;
+    border-radius: 20px;
+    color: white;
+    margin: 12%;
+    padding: 2%;
+}
+h1{
+    font-size: 300%;
+    text-align: center;
+  }
+  h2,h3{
+    font-size: 200%;
+  }
+  img, div {
+    border-radius: 10px;
+    text-align: center;
+}
+img:hover{
+    cursor:pointer;
+   transform: scale(1.05);
+    box-shadow: 0px 0px 5px 5px chartreuse;
+  }
+  p{
+    font-size: 160%;
+    text-align: center;
+    color: turquoise;
+   }
+   input{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   
+   css
