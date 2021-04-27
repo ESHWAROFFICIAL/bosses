@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <P>
+We two are learning <b>WEB-DEVELOPERS</b> .
+This a project created by us for the competiton named MYTHOLOGY. 
+The topic we chose is RADHAKRISHNA .
+A great love story that went down the history 
+This project is been created to teLL about the greatness of their true and pure story . 
+Their story says about the greatness of love .
+They can be caled as the icons of true love ....
+Their love will last forever</p>
+
+
+
+
+    <p>Mythology (from the Greek mythos for story-of-the-people, and logos for word or speech, so the spoken story of a people) is the study and interpretation of often sacred tales or fables of a culture known as myths or the collection of such stories which deal with various aspects of the human condition: good and evil; the meaning of suffering; human origins; the origin of place-names, animals, cultural values, and traditions; the meaning of life and death; the afterlife; and the gods or a god. Myths express the beliefs and values about these subjects held by a certain culture.
+
+        Myths tell the stories of ancestors and the origin of humans and the world, the gods, supernatural beings (satyrs, nymphs, mermaids) and heroes with super-human, usually god-given, powers (as in the case of Heracles or Perseus of the Greeks). Myths also describe origins or nuances of long-held customs or explain natural events such as the sunrise and sunset, the cycle of the moon and the seasons, or thunder and lightning storms. Scholars Maria Leach and Jerome Fried define mythology along these lines:</p>
+
+      <p>[A myth is] a story, presented as having actually occurred in a previous age, explaining the cosmological and supernatural traditions of a people, their gods, heroes, cultural traits, religious beliefs, etc. The purpose of myth is to explain, and, as Sir G.L. Gomme said, myths explain matters in “the science of a pre-scientific age.” Thus myths tell of the creation of man, of animals, of landmarks; they tell why a certain animal has its characteristics (e.g. why the bat is blind or flies only at night), why or how certain natural phenomena came to be (e.g. why the rainbow appears or how the constellation Orion got into the sky), how and why rituals and ceremonies began and why they continue.According to psychiatrist Carl Jung, myth is a necessary aspect of the human psyche which needs to find meaning & order in the world.Mythology has played an integral part in every civilization throughout the world. Pre-historic cave paintings, etchings in stone, tombs, and monuments all suggest that, long before human beings set down their myths in words, they had already developed a belief structure corresponding to the definition of `myth’ provided by Leach and Fried. According to psychiatrist Carl Jung, myth is a necessary aspect of the human psyche which needs to find meaning and order in a world which often presents itself as chaotic and meaningless.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #full{
+  text-align: center;
+}
+#eshwaranand{
+font-size:50px;
+text-align: center;
+}
+#saicharan{
+font-size:50px;
+text-align: center;
+}
+#a{
+  font-size:20px;
+text-align: center;
+}
+#b{
+  font-size:20px;
+text-align: center;
+}
+.kk{
+    border-radius: 50%;
+
+    background-color: yellow;
+    border-top: 0%;
+}
+
+    </style>
+</head>
+<body>
+    <DIV id=""full>
+        <div id="a">
+        <h4 id ="eshwaranand">Eshwar anand</h4><div class="kk"><em> 
+            hi everyone ... i'm a learner and a web-developer .<br> Im studying in PROGRAD JR. . I participated<br> in many competitions and gotrying to improve myself. I got<br> certificates from PROGRAD_JR.</em>
+     </div>
+                  <b>CHEERS..!!</b></div>
+     
+     
+     <div id="b">
+        <h4 id ="saicharan">Sai charan</h4><div class="kk"><em>
+        hey there guys.This is Charan <br> and I'm a learner and web-developer. I got  certificated from <br>MIMO , SOLOLEARN ( about to get a certficate from W3_SCHOOLS).<br> Its my frst competition.</em>
+     </DIV>
+                   <b>CHEERS...!!</b></div> 
+     </div> 
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RADHAKRISHNA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<style>
+.first {
+    font-family: 'Sofia';font-size: 22px;
+}
+</style
+</head>
+<body>
+    <h1 class="first" >RADHAKRISHNA</h1>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        p{
+            font-size: 23px;
+            text-align: center;
+            text-decoration: none;
+             }
+        #a{ color: salmon;
+            background-color: seagreen;}
+        #b{ color: salmon;
+            background-color: seagreen;}
+        #c{ color: salmon;
+            background-color: seagreen;}
+        #d{ color: salmon;
+            background-color: seagreen;}
+        #e{ color: salmon;
+            background-color: seagreen;}
+        #f{ color: salmon;
+            background-color: seagreen;}
+        #g{ color: salmon;
+            background-color: seagreen;}
+        #h{ color: salmon;
+            background-color: seagreen;}
+
+
+    </style>
+</head>
+<body>
+    <p id="a">Radha-Krishna (IAST rādhā-kṛṣṇa, Sanskrit: राधा कृष्ण) are collectively known within Hinduism as the combined forms of feminine as well as the masculine realities of God. Radha and Krishna are the primeval forms of God and His pleasure potency respectively in the Gaudiya Vaishnava school of thought. In some schools of Vaishnavism, Krishna is referred to as Svayam Bhagavan, and Radha is illustrated as the primeval potency of the three main potencies of God, Hladini (immense spiritual bliss), Sandhini (eternality) and Samvit (existential consciousness) of which Radha is an embodiment of the feeling of love towards the almighty Lord Krishna.(Hladini). With Krishna, Radha is acknowledged as the Supreme Goddess, it is said that Krishna or God is only satiated by devotional service in loving servitude and Radha is the personification of devotional service to the supreme lord. Various devotees worship her with the understanding of her merciful nature as the only way to attain Krishna. Radha is also depicted to be Krishna himself, split into two, for the purpose of His enjoyment.[1]
+
+        It is believed that Krishna enchants the world, but Radha enchants even him. Therefore, she is the supreme goddess of all and together they are called as RadhaKrishna.[2]
+        
+        While there are much earlier references to the worship of this form of God, it is since Jayadeva Goswami wrote a famous poem Gita Govinda in the twelfth century of the Common Era, that the topic of the spiritual love between the divine Krishna and his devotee Radha, became a theme celebrated throughout India.[3] It is also believed that Radha is not just one cowherd maiden, but is the origin of all the gopis, or divine personalities that participate in the rasa dance.[4] </p>
+    
+        <p id = "b">From the Vaishnava point of view the divine feminine energy (shakti) implies a divine source of energy, God or shaktiman. "Sita relates to Rama; Lakshmi belongs to Narayana; Radha has her Krishna." As Krishna is believed to be the source of all manifestations of God, "Radha, his consort, is the original source of all shaktis" or feminine manifestation of divine energy.[8]
+
+            A number of interpretations according to traditions possess a common root of personalism in the understanding of worship. Specifically Caitanyaite Gaudiya Vaishnava doctrine and mission is fiercely "personalistic," proclaiming the supremacy of Krishna, the identification of Caitanya as Radha-Krishna, the reality and eternality of individual selves, and a method for approaching the absolute reality and the Deity as a person first and foremost.[9]
+            
+            Jiva Goswami in his Priti Sandarbha states that each of the Gopis exhibits a different level of intensity of passion, among which Radha's is the greatest.[10]
+            
+            In his famous dialogs Ramananda Raya describes Radha to Caitanya and quotes, among other texts, a verse from Chaitanya Charitamrta 2.8.100, before he goes on to describe her role in the pastimes of Vrindavana.[11]
+            
+            The central pivot point of the theology is related to the word rasa. The theological use of the word can be found very early, about two thousand years before the Nimbarka or Caitanya school, in a phrase that the tradition frequently quotes: "Truly, the Lord is rasa" (raso vai sah) of Brahma sutras. This statement expresses the view that God is the one who enjoys the ultimate rasa or spiritual rapture, emotions</p>
+           
+         <p id="c">In Vedic and Puranic literature, Radhas and other forms of the root Radh have meaning of ‘perfection’, ‘success’ and even ‘wealth’.[citation needed] Lord of Success, Indra was referred to as Radhaspati. In references to Mahavishnu as the Lord of Fortune and freely used by Jayadeva as Jaya Jayadeva Hare – the victorious Hari, and ‘Radhaspati’ all found in many places. The word Radha occurs in the Atharva Veda, Taittiriya BrAhmana and Taittiriya Samhita.[17]
+
+            Charlotte Vaudeville, in the article Evolution of Love Symbolism in Bhagavatism draws some parallel to Nappinnai, appearing in Godha's magnum opus Thiruppavai and in Nammalwar's references to Nappinnani, the daughter-in-law of Nandagopa. Nappinnai is believed to be the source of Radha’s conception in Prakrit and Sanskrit literature although their characteristic relations with Krishna are different. In the ritual dance called Kuravai, Krishna dances with his wife Nappinnai.
+            
+            "It is a complex relationship, for the devotee is the ‘same as and yet different from’ the Lord, and so even in the joy of union there is the pain of separation. Indeed, the highest form of devotion, according to Yamunacarya, comes not in union but after the union, in the ‘fear of new separation’."[18]
+            
+            Yasastilaka Champukavya (AD 959) all make references to Radha and Krishna well before Jayadeva's period. There are elaborate references to Radha in Brahma vaivarta and Padma Puranas.</p>   
+          
+            <p  id="d">Radha, in Hinduism, the gopi (milkmaid) who became the beloved of the god Krishna during that period of his life when he lived among the gopas (cowherds) of Vrindavan. Radha was the wife of another gopa but was the dearest of Krishna’s consorts and his constant companion. In the bhakti (devotional) movement of Vaishnavism, the female, Radha, is sometimes interpreted as symbolizing the human soul and the male, Krishna, as symbolizing God.The love of Krishna and Radha has been given expression in the lyrical poetry of many Indian languages, particularly Bengali. The Bengali saint Chaitanya was said to be an incarnation of both Krishna and Radha: he was Krishna on the inside and Radha on the outside. Chaitanya also composed many devotional poems celebrating the divine love, but they have not survived. The Gita Govinda, by Jayadeva, was a favourite source of inspiration for the later Rajasthani and Pahari miniature painters, in whose works Radha is seen waiting for Krishna to return with the cows in the twilight or sitting with him in a forest grove. The bronze images of Krishna playing the flute that are enshrined in temples are often accompanied, particularly in the northern and eastern parts of India, by images of his beloved Radha, and she too is worshipped.</p>
+
+            <p  id="e">Krishna, Sanskrit Kṛṣṇa, one of the most widely revered and most popular of all Indian divinities, worshipped as the eighth incarnation (avatar, or avatara) of the Hindu god Vishnu and also as a supreme god in his own right. Krishna became the focus of numerous bhakti (devotional) cults, which have over the centuries produced a wealth of religious poetry, music, and painting. The basic sources of Krishna’s mythology are the epic Mahabharata and its 5th-century-ce appendix, the Harivamsha, and the Puranas, particularly Books X and XI of the Bhagavata-purana. They relate how Krishna (literally “black,” or “dark as a cloud”) was born into the Yadava clan, the son of Vasudeva and Devaki, who was the sister of Kamsa, the wicked king of Mathura (in modern Uttar Pradesh). Kamsa, hearing a prophecy that he would be destroyed by Devaki’s child, tried to slay her children, but Krishna was smuggled across the Yamuna River to Gokula (or Vraja, modern Gokul), where he was raised by the leader of the cowherds, Nanda, and his wife Yashoda.</p>
+
+            <p  id="f">The child Krishna was adored for his mischievous pranks; he also performed many miracles and slew demons. As a youth, the cowherd Krishna became renowned as a lover, the sound of his flute prompting the gopis (wives and daughters of the cowherds) to leave their homes to dance ecstatically with him in the moonlight. His favourite among them was the beautiful Radha. At length, Krishna and his brother Balarama returned to Mathura to slay the wicked Kamsa. Afterward, finding the kingdom unsafe, Krishna led the Yadavas to the western coast of Kathiawar and established his court at Dvaraka (modern Dwarka, Gujarat). He married the princess Rukmini and took other wives as well.
+
+                Krishna refused to bear arms in the great war between the Kauravas (sons of Dhritarashtra, the descendant of Kuru) and the Pandavas (sons of Pandu), but he offered a choice of his personal attendance to one side and the loan of his army to the other. The Pandavas chose the former, and Krishna thus served as charioteer for Arjuna, one of the Pandava brothers. On his return to Dvaraka, a brawl broke out one day among the Yadava chiefs in which Krishna’s brother and son were slain. As the god sat in the forest lamenting, a huntsman, mistaking him for a deer, shot him in his one vulnerable spot, the heel, killing him.
+                </p>
+
+             <p  id="g">Krishna’s personality is clearly a composite one, though the different elements are not easily separated. Vasudeva-Krishna was deified by the 5th century bce. The cowherd Krishna was probably the god of a pastoral community. The Krishna who emerged from the blending of these figures was ultimately identified with the supreme god Vishnu-Narayana and, hence, considered his avatar. His worship preserved distinctive traits, chief among them an exploration of the analogies between divine love and human love. Thus, Krishna’s youthful dalliances with the gopis are interpreted as symbolic of the loving interplay between God and the human soul.The rich variety of legends associated with Krishna’s life led to an abundance of representation in painting and sculpture. The child Krishna (Balakrishna) is depicted crawling on his hands and knees or dancing with joy, a ball of butter held in his hands. The divine lover—the most common representation—is shown playing the flute, surrounded by adoring gopis. In 17th- and 18th-century Rajasthani and Pahari painting, Krishna is characteristically depicted with blue-black skin, wearing a yellow dhoti (loincloth) and a crown of peacock feathers.</p>   
+
+             <p id="h">after knowing about the god we also need to learn about the devotee named meerabhai
+                Meera, also known as Mirabai[2] (मीराबाई; c.1498–c.1546), was a 16th-century Hindu mystic poet and devotee of Lord Krishna. She is a celebrated Bhakti saint, particularly in the North Indian Hindu tradition.[3][4]
+
+                Mirabai was born into a Rajput royal family in Kudki, Pali district, Rajasthan, Mira then spent her childhood in Merta, Rajasthan. She is mentioned in Bhaktamal, confirming that she was widely known and a cherished figure in the Bhakti movement culture by about 1600 CE.[5] Most legends about Meera mention her fearless disregard for social and family conventions, her devotion to Lord Krishna, her treating Lord Krishna as her husband and being persecuted by her in-laws for her religious devotion.[1][5] She has been the subject of numerous folk tales and hagiographic legends, which are inconsistent or widely different in details.[1][6] Millions of devotional hymns in passionate praise of Lord Krishna are attributed to Meerabai in the Indian tradition, but just a few hundred are believed to be authentic by scholars, and the earliest written records suggest that except for two hymns, most were written down only in the 18th century.[7] Many poems attributed to Meera were likely composed later by others who admired Meera. These hymns are commonly known as bhajans, and are popular across India.[8] Hindu temples, such as in Chittorgarh fort, are dedicated to Mira Bai's memory.[1] Legends about Meera's life, of contested authenticity, have been the subject of movies, comic strips and other popular literature in modern times.[9] A number of compositions by Meera Bai continue to be sung today in India, mostly as devotional songs (bhajans) though nearly all of them have a philosophical connotation.[17] One of her most popular compositions remains "Paayoji maine Ram Ratan dhan paayo" (पायो जी मैंने राम रतन धन पायो।, "I have been given the richness of Lord Ram's blessing").[18][19] Meera's poems are lyrical padas (metric verses) in Rajasthani language.[12] While thousands of verses are attributed to her, scholars are divided in their opinion as to how many of them were actually penned by Meera herself.[20] There are no surviving manuscripts of her poetry from her time, and the earliest records with two poems credited to her are from early 18th-century, more than 150 years after she died
+             </p>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+html
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.first{
+    font-family: Lobster;
+}
+
+
+css
