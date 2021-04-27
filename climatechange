@@ -1,0 +1,55 @@
+<section>
+  <h1> How to help prevent Climate Change in your own little way </h1>
+<div> 
+<img src="https://image.flaticon.com/icons/svg/809/809120.svg" height="70%"><p> CONSERVE WATER </p>
+</div> 
+
+<div class="p1"> 
+<img src="https://image.flaticon.com/icons/svg/2911/2911673.svg" height="70%"><p> PLANT A TREE </p>
+</div>
+
+<div class="p1">
+<img src="https://image.flaticon.com/icons/svg/2911/2911684.svg" height="70%"><p> SAVE ENERGY </p>
+</div> 
+<div>
+<img src="https://image.flaticon.com/icons/svg/2534/2534175.svg" height="70%"><p> TRAVEL GREEN </p>
+</div> 
+<div>
+<img src="https://image.flaticon.com/icons/svg/1476/1476083.svg" height="70%"><p> CLEAN ENERGY </p>
+</div> 
+<div>
+<img src="https://image.flaticon.com/icons/svg/1619/1619802.svg" height="70%"><p> REDUCE WASTER </p>
+</div> 
+</section>
+
+
+
+html
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body{
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+div {
+  font-size: 24px;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  padding: 3%;
+  margin: 1%;
+  border: 1px solid black;
+}
+
+/*code to be implemented*/
+div:nth-last-child(2n){
+  background: lightgreen;
+}
+
+
+css
