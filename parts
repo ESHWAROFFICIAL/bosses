@@ -1,0 +1,123 @@
+<html> 
+<head> <title> Save Wildlife </title> 
+<body>  
+<p id="firstp"> Save Wildlife </p>
+
+<p id="secondp"> Here are 5 reasons to Save Wildlife </p>
+
+<img id="album" src="https://i.postimg.cc/XqTZ0kH7/download-2.jpg">
+
+<p id="reason1"> 1.They are also human being. </p>
+  
+<br>
+    <br>
+    <div>
+      <button type="button" onclick="nextslide()"> Next </button>
+      
+    </div>  
+  </body>
+</head>
+</html>
+
+<html>
+  <head>
+    <title>My Seccond Webpage</title>
+  </head>
+  <body>
+    <h1 id="Heading" onclick="ChangeColour()">Save Animals</h1>
+    <h2>Let' s save animals</h2>
+    <p>Why are we killing animals? Killing animals is a very bad thing to do. So let us all plegde to save animals. Let them rome around their homes freely. Examples are:- One Horned Rhinoceros, African and normal elephants. These animals including tigers, lions etc. are dying because of poachers. So,  shall we save them or not!? Peoples are using animals for their ivory, their comfort and food. Now days we are cutting trees. By cutting trees only, animals are dying. Save wildlife and save forest!</p>
+    <img id="Image1" src="https://images.unsplash.com/photo-1551805335-b7c506e1947f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ">
+  </body>
+</html>
+
+
+html
+
+
+body{
+  text-align:center;
+}  
+#firstp{
+  word-spacing: 10px;
+   font-variant: small-caps;
+  text-align: center;
+  font-size: 80px;
+  color:#26C6DA;
+  background-color:#1A237E;
+}
+
+#secondp{
+  word-spacing: 10px;
+   font-variant: small-caps;
+  text-align: center;
+  font-size:30px;
+  color:#26C6DA;
+  background-color:#1A237E;
+}
+
+#reason1{
+  font-size:50px;
+}
+body{
+  text-align: center;
+  background-color: violet;
+}
+h1{
+  color: white;
+}
+h2{
+  color: red;
+}
+p{
+  color: yellow;
+}
+#Image1{
+  border-style: solid;
+  border-color: darkviolet;
+  padding: 5px;
+  margin: 50px;
+}
+
+
+
+css
+
+
+
+
+var reasons = [
+"2. Medicinal value.",  
+"3. Aesthetic benefits.", 
+"4. Preserves heritage and culture",
+"5 Protection of biodiversity and endangered species."
+];
+
+var images = [
+src="https://i.postimg.cc/zGhBThdT/download-1.jpg",
+src="https://i.postimg.cc/0NcqS2qp/images.jpg",
+src="https://i.postimg.cc/B6F9V5KC/green-monkey-16000000.png",
+src="https://i.postimg.cc/3NbX0GtP/images-1.jpg"
+];
+
+var i=0;
+function nextslide(){
+ document.getElementById("reason1").innerHTML = reasons[i];
+  
+  document.getElementById("album").src = images[i];
+  i++;
+}  
+  
+
+function ChangeColour(){
+    document.getElementById("Heading").style.color="green";
+}
+  
+  
+  
+  
+  
+
+
+
+js
