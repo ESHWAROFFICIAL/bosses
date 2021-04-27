@@ -1,0 +1,208 @@
+<ul id="nav">
+        <li><a href="#movie">MOVIE</a></li>
+        <li><a href="#story">STORY</a></li>
+        <li><a href="#cast">CAST</a></li>
+        <li><a href="#videos">VIDEOS</a></li>
+    </ul>
+    <div class="section" id="movie">
+        <img src="https://i1.faceprep.in/ProGrad/angrybirds-logo.png" alt="logo">
+        <p id="sub-header">To save the world, these enemies must become frenemies.</p>
+        <div class="button">
+            WATCH NOW
+        </div>
+    </div>
+    <div class="section" id="story">
+        <h2 id="story-heading">
+            THE STORY
+        </h2>
+        <p>The flightless angry birds and the scheming green piggies take their beef to the next level in The Angry
+            Birds Movie 2! When a new threat emerges that puts both Bird and Pig Island in danger, Red, Chuck, and Bomb
+            team up with Leonard and his pigs to form an unlikely superteam to save their homes.</p>
+    </div>
+    <div class="section" id="cast">
+        <h2 id="cast-heading">
+            THE CAST
+        </h2>
+        <p>JASON SUDEIKIS
+            as Red, JOSH GAD as Chuck, DANNY MCBRIDE
+            as Bomb, RACHEL BLOOM
+            as Silver, LESLIE JONES
+            as Zeta, PETER DINKLAGE
+            as the Mighty Eagle, BILL HADER
+            as Leonard</p>
+    </div>
+    <div class="section" id="videos">
+        <h2>
+            VIDEOS
+        </h2>
+
+        <a href="https://www.youtube.com/embed/O24VnVe3-5E"><img
+                src="https://i1.faceprep.in/ProGrad/angrybirds-video1.png" alt="video1"></a>
+
+        <p class="video-name">TEASER TRAILER</p>
+
+        <a href="https://www.youtube.com/embed/dMXGv_g1BJI"><img
+                src="https://i1.faceprep.in/ProGrad/angrybirds-video2.png" alt="video1"></a>
+
+        <p class="video-name">A MOTHER’S DAY SONG FROM THE HATCHLINGS</p>
+    </div>
+    <div class="section" id="footer">
+        For the ❤ of Angry Birds, by ProGrad Junior 
+    </div>
+</body>
+
+
+
+
+
+html
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+      padding: 10px;
+}
+
+li:hover {
+    background-color: grey;
+}
+
+li:active {
+    background-color: black;
+}
+
+#sub-header {
+    color: white;
+}
+
+
+.button {
+    background-color: #FFE200;
+    border-radius: 2px;
+    width: 100px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+p {
+    text-align: center;
+    width: 500px;
+}
+
+#movie {
+    background-image: URL("https://i1.faceprep.in/ProGrad/angrybirds-bg1.png");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-evenly;
+}
+
+#story {
+    background-image: URL("https://i1.faceprep.in/ProGrad/angrybirds-bg2.png");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+#story-heading {
+    color: #F04A3D;
+}
+
+#cast {
+    background-image: URL("https://i1.faceprep.in/ProGrad/angrybirds-bg3.png");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+#cast-heading {
+    color: #8F3079;
+}
+
+#videos {
+    background-image: URL("https://i1.faceprep.in/ProGrad/angrybirds-bg4.png");
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+#videos a {
+    padding-top: 30px;
+}
+
+#videos img {
+
+    border: 4px solid black;
+}
+
+.video-name {
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+    img {
+        width: 300px;
+    }
+
+    p {
+        width: 200px;
+    }
+
+}
+
+
+
+
+css
