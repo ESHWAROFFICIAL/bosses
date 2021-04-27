@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <img id="image1" src="https://i1.faceprep.in/ProGrad/space-man-1.png" alt="">
+ <img id="image2" src="https://i1.faceprep.in/ProGrad/space-man-2.png" alt="">
+ <form action="">
+     <h1>Rocket around The Moon with your Friends</h1>
+    <label class="display" for="Country">Departure Country</label>
+    <select name="countries" id="countries">
+<option value="India">India</option>
+<option value="USA">USA</option>
+<option value="UAE">UAE</option>
+ </select>
+<label class="display" for="Travellers">No. of Space Travellers</label>
+<input type="number" id="Travellers" name="Travellers">
+<label class="display" for="email">Your Email</label>
+<input type="text" id="email" name="email" placeholder="ilovespace@gmail.com">
+<label class="display" for="rent">Do you wanna rent a Space Suit?</label>
+<input type="radio" id="Yes" name="rent-button" value="yes">
+<label class="rent-label" for="yes">Yes Please</label>
+<input type="radio" id="no" name="rent-button" value="no">
+<label class="rent-label" for="no">Have our own Suits</label>
+<input type="submit" id="button" value="TAKE US TO SPACE">
+</form>
+
+</body>
+</html>
+
+
+html
+
+
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap");
+body{
+    background-image: url("https://i1.faceprep.in/ProGrad/sky-moon-bg.png");
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    font-family: "Exo 2", sans-serif;
+}
+
+#image1{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 500px;
+}
+#image2{
+    position: absolute;
+    height: 425px;
+    top: 30%;
+    left: 30%;
+}
+
+.display{
+    display: block;
+}
+form{
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    background-color: white;
+    padding: 0px 75px ;
+    border-radius: 5px;
+}
+.rent-label {
+    margin-right: 20px;
+}
+
+label {
+    font-size: 16px;
+    margin: 20px 0px 4px 0px;
+}
+#button{
+    display: block;
+    color: white;
+    background-color: #ec7920;
+    padding: 15px 20px;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: none;
+}
+select,
+input[type="number"],
+input[type="text"]
+{
+    width: 300px;
+    height: 40px;
+    border: 1px solid grey;
+    padding: 0 5px;
+}
+h1{
+    text-align: center;
+}
+
+
+
+css
