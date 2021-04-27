@@ -1,0 +1,36 @@
+<div id= "bg">
+<h1> What's your favorite color? </h1>
+<p> Enter your favorite color and watch the background change based on your input!</p>
+<input type= "text" id= "userInput"> </input>
+<button onclick= "color()"> Submit </button>
+</div>
+
+
+
+html
+
+
+
+button {
+  font-size: 18px;
+  background: dodgerblue;
+  color: white
+    
+}
+
+input {
+  height: 24px;
+}
+
+
+css
+
+
+function color(){
+  var input = document.getElementById("userInput").value;
+  
+  document.getElementById("bg").style.background = input;
+}
+
+
+js
